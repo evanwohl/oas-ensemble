@@ -98,7 +98,7 @@ The results of training a model with the target variable as a -28 basis point ch
 It is important to note the AUC can be increased to 0.7+ by parameter tuning, though other performance metrics may suffer.
 
 ## Summary 
-The ensemble model demonstrates strong performance in predicting significant changes in non-investment grade short-term debt, particularly when the model's confidence is high. The time series analysis and scatter plot visualization both support the utility of confidence scores as an indicator of prediction reliability. While the overall accuracy and AUC scores are good, focusing on confidence scores provides a more actionable and reliable metric for users. The model's ability to track movements in debt changes effectively, even with a moderate AUC, underscores the importance of confidence filtering in practical applications.
+The ensemble model demonstrates strong performance in predicting significant changes in non-investment grade short-term debt, particularly when the model's confidence is high. The time series analysis and scatter plot visualization both support the utility of confidence scores as an indicator of prediction reliability. While the overall accuracy and AUC scores are good, focusing on confidence scores provides a more actionable and reliable metric. The model's ability to track movements in debt changes effectively, even with a moderate AUC, highlights the importance of confidence filtering in practical applications.
 
 
 
