@@ -80,10 +80,22 @@ The results of training a model with the target variable as a -35 basis point ch
 - **Accuracy (Entire Test Set)**: 0.7779212395093609
 - **AUC (Entire Test Set)**: 0.6683076749562963
 - **Filtered Accuracy (Confidence > 0.5)**: 0.967032967032967
-It is important to note the AUC can be increased to 0.7+ by parameter tuning, though other performance metrics may suffer.
+
 
 ![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/b401e468-b4f5-4de6-bc8f-b40a3d283558)
-![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/06705b01-b69d-4893-b031-63149f7fdff3)
+![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/ba5ccc56-579b-4bb7-82bd-338c26805ee4)
+
+
+The results of training a model with the target variable as a -28 basis point change over the next 70 trading days are as follows:
+- **Accuracy (Entire Test Set)**: 0.7585539057456423
+- **AUC (Entire Test Set)**: 0.6804820998125167
+- **Filtered Accuracy (Confidence > 0.5)**: 0.9313304721030042
+- 
+![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/034de1de-f8ee-45a7-bc7a-ef4507b4dd2e)
+![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/1182e000-fcc9-4b91-a047-5c3bb298565b)
+
+
+It is important to note the AUC can be increased to 0.7+ by parameter tuning, though other performance metrics may suffer.
 
 ## Summary 
 The ensemble model demonstrates strong performance in predicting significant changes in non-investment grade short-term debt, particularly when the model's confidence is high. The time series analysis and scatter plot visualization both support the utility of confidence scores as an indicator of prediction reliability. While the overall accuracy and AUC scores are good, focusing on confidence scores provides a more actionable and reliable metric for users. The model's ability to track movements in debt changes effectively, even with a moderate AUC, underscores the importance of confidence filtering in practical applications.
