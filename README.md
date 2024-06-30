@@ -2,7 +2,7 @@
 
 # Heterogeneous Ensemble Model for Predicting Changes in Non-Investment Grade Short Term Debt
 
-This repository presents an advanced ensemble modeling approach to predict percentage changes in non-investment grade short-term debt. The methodology combines Random Forest and Extra Trees classifiers to deliver robust and accurate predictions. Comprehensive statistical analyses and visualizations are provided to enhance the interpretability of the results.
+This repository presents an advanced ensemble modeling approach to predict percentage changes in non-investment grade short-term debt by using the ICE BofA US High Yield Index Option-Adjusted Spread as a proxy. The methodology combines Random Forest and Extra Trees classifiers to deliver robust and accurate predictions. Comprehensive statistical analyses and visualizations are provided to enhance the interpretability of the results.
 
 ## Table of Contents
 
