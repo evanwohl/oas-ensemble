@@ -1,5 +1,3 @@
-![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/17214ea6-1fff-44ba-9229-805419cd6746)# creditAnalysis
-
 # Heterogeneous Ensemble Model for Predicting Changes in Non-Investment Grade Short Term Debt
 
 This repository presents an advanced ensemble modeling approach to predict percentage changes in non-investment grade short-term debt by using the ICE BofA US High Yield Index Option-Adjusted Spread as a proxy. The methodology combines Random Forest and Extra Trees classifiers to deliver robust and accurate predictions. Statistical analyses and visualizations are provided to enhance the interpretability of the results.
