@@ -6,7 +6,7 @@ the Software exclusively for educational purposes, including academic research,
 teaching, and learning, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+copies or portions of the Software.
 
 **1. Definitions:**
    - "Educational Purposes" means use in academic institutions for non-commercial research, teaching, and learning activities.
