@@ -37,7 +37,6 @@ copies or substantial portions of the Software.
 
 **5. Reporting Violations:**
    - Users are encouraged to report any suspected violations of this license to the authors or copyright holders.
-   - Reports can be made via email to [insert contact information] or through any other specified reporting mechanism.
 
 **6. Disclaimer of Warranties and Limitation of Liability:**
    - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
