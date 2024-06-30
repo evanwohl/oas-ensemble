@@ -90,7 +90,7 @@ The results of training a model with the target variable as a -28 basis point ch
 - **Accuracy (Entire Test Set)**: 0.7585539057456423
 - **AUC (Entire Test Set)**: 0.6804820998125167
 - **Filtered Accuracy (Confidence > 0.5)**: 0.9313304721030042
-- 
+
 ![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/034de1de-f8ee-45a7-bc7a-ef4507b4dd2e)
 ![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/1182e000-fcc9-4b91-a047-5c3bb298565b)
 
