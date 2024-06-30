@@ -46,8 +46,4 @@ copies or portions of the Software.
    - This license and the rights granted hereunder will terminate automatically upon any breach by the licensee of the terms of this license.
    - Upon termination, the licensee must cease all use and distribution of the Software and destroy all copies, including modified versions, in their possession.
 
-**8. Governing Law:**
-   - This Educational Use License shall be governed by and construed in accordance with the laws of [insert applicable jurisdiction], without regard to its conflict of law principles.
-   - Any legal actions or proceedings arising from this license shall be brought exclusively in the courts of [insert applicable jurisdiction], and the parties consent to the jurisdiction thereof.
-
 By using the Software, you acknowledge that you have read and understood this Educational Use License and agree to be bound by its terms.
