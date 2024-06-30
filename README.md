@@ -1,12 +1,11 @@
-# creditAnalysis
+![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/17214ea6-1fff-44ba-9229-805419cd6746)# creditAnalysis
 
 # Heterogeneous Ensemble Model for Predicting Changes in Non-Investment Grade Short Term Debt
 
-This repository presents an advanced ensemble modeling approach to predict percentage changes in non-investment grade short-term debt by using the ICE BofA US High Yield Index Option-Adjusted Spread as a proxy. The methodology combines Random Forest and Extra Trees classifiers to deliver robust and accurate predictions. Comprehensive statistical analyses and visualizations are provided to enhance the interpretability of the results.
+This repository presents an advanced ensemble modeling approach to predict percentage changes in non-investment grade short-term debt by using the ICE BofA US High Yield Index Option-Adjusted Spread as a proxy. The methodology combines Random Forest and Extra Trees classifiers to deliver robust and accurate predictions. Statistical analyses and visualizations are provided to enhance the interpretability of the results.
 
 ## Table of Contents
-
-- [Introduction](#introduction)
+- [Overview](#Overview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Methodology](#methodology)
@@ -14,10 +13,10 @@ This repository presents an advanced ensemble modeling approach to predict perce
   - [Feature Selection](#feature-selection)
   - [Model Training](#model-training)
   - [Model Evaluation](#model-evaluation)
+- [Results](#results)
 
-## Introduction
-
-This project aims to develop an ensemble model to predict significant percentage changes in non-investment grade short-term debt. By leveraging the strengths of Random Forest and Extra Trees classifiers, the model provides accurate predictions and insights into the underlying factors influencing debt changes.
+## Overview
+In this project, a heterogeneous ensemble model is employed to predict percentage changes in non-investment grade short-term debt. By combining Random Forest and Extra Trees classifiers, the ensemble leverages the strengths of both algorithms—Random Forest's robustness and Extra Trees' variance reduction. The predictions from these models are then integrated using logistic regression, which learns to weigh their contributions effectively. This approach improves predictive accuracy, reduces overfitting, and provides more reliable predictions, particularly when the model's confidence is high. 
 
 ## Installation
 
@@ -54,9 +53,9 @@ The modeling pipeline consists of:
 
 1. **Random Forest Classifier**:
    - An ensemble method leveraging multiple decision trees.
-   - Utilizes bootstrap aggregatingto build multiple decision trees on different samples of the dataset.
-   - Each tree is trained on a random subset of features, enhancing diversity among the trees and reducing overfitting.
-   - Final predictions are made by averaging the probabilities output by each tree (for classification) or taking the majority vote.
+   - Utilizes bootstrap aggregating to build multiple decision trees on different samples of the dataset.
+   - Each tree is trained on a random subset of features, enhancing diversity among trees while reducing overfitting.
+   - Final predictions are made by averaging the probabilities output by each tree or majority vote.
 
 2. **Extra Trees Classifier**:
    - An ensemble technique similar to Random Forest but with increased randomness.
@@ -76,6 +75,26 @@ The model is evaluated using several metrics:
 - **AUC**: Assesses the model's ability to distinguish between classes.
 - **Time Series Analysis**: Plots confidence scores and percentage changes over time.
 - **Confidence vs Percentage Change**: Scatter plots illustrating the relationship between confidence scores and percentage changes.
+
+## Results
+
+The results of training a model with the target variable as a -35 basis point change over the next 70 trading days are as follows:
+Accuracy (Entire Test Set): 0.7779212395093609
+AUC (Entire Test Set): 0.6683076749562963
+Filtered Accuracy (Confidence > 0.5): 0.967032967032967
+![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/b401e468-b4f5-4de6-bc8f-b40a3d283558)
+![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/06705b01-b69d-4893-b031-63149f7fdff3)
+
+## Summary 
+The ensemble model demonstrates strong performance in predicting significant changes in non-investment grade short-term debt, particularly when the model's confidence is high. The time series analysis and scatter plot visualization both support the utility of confidence scores as an indicator of prediction reliability. While the overall accuracy and AUC scores are good, focusing on confidence scores provides a more actionable and reliable metric for users. The model's ability to track movements in debt changes effectively, even with a moderate AUC, underscores the importance of confidence filtering in practical applications.
+
+
+
+
+
+
+
+
 
    
 
