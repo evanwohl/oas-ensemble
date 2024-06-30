@@ -9,7 +9,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or portions of the Software.
 
 **1. Definitions:**
-   - "Educational Purposes" means use in academic institutions for non-commercial research, teaching, and learning activities.
+   - "Educational Purposes" means use for non-commercial research, teaching, and learning activities.
    - "Commercial Purposes" means any use that primarily intends or results in commercial advantage or monetary compensation, including but not limited to:
      - Sale or distribution of the Software or any derivative works thereof.
      - Use of the Software or derivative works in a service or product offered for sale.
