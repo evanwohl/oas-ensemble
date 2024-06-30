@@ -77,9 +77,9 @@ The model is evaluated using several metrics:
 ## Results
 
 The results of training a model with the target variable as a -35 basis point change over the next 70 trading days are as follows:
-Accuracy (Entire Test Set): 0.7779212395093609
-AUC (Entire Test Set): 0.6683076749562963
-Filtered Accuracy (Confidence > 0.5): 0.967032967032967
+- **Accuracy (Entire Test Set)**: 0.7779212395093609
+- **AUC (Entire Test Set)**: 0.6683076749562963
+- **Filtered Accuracy (Confidence > 0.5)**: 0.967032967032967
 ![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/b401e468-b4f5-4de6-bc8f-b40a3d283558)
 ![image](https://github.com/evanwohl/creditAnalysis/assets/156111794/06705b01-b69d-4893-b031-63149f7fdff3)
 
