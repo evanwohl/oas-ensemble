@@ -7,7 +7,10 @@ from sklearn.feature_selection import SelectFromModel
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
+import warnings
+warnings.filterwarnings('ignore', category=UserWarning,
+                        message="X has feature names, but SelectFromModel was fitted without feature names")
+warnings.filterwarnings('ignore', category=pd.errors.PerformanceWarning)
 
 def load_data(csv_path):
     """
@@ -34,7 +37,6 @@ def load_data(csv_path):
     df["Change_Binary"] = (df["Change"] < -0.35).astype(int)
     df = df.iloc[:-70]
     df = df.dropna()
-    print(df)
     return df
 
 
