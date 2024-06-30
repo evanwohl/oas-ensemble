@@ -51,4 +51,3 @@ copies or substantial portions of the Software.
    - Any legal actions or proceedings arising from this license shall be brought exclusively in the courts of [insert applicable jurisdiction], and the parties consent to the jurisdiction thereof.
 
 By using the Software, you acknowledge that you have read and understood this Educational Use License and agree to be bound by its terms.
-By using the Software, you agree to abide by the terms of this Educational Use License.
