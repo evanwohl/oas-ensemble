@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ### Data Preprocessing
 
-The dataset undergoes several preprocessing aand feature engineering steps to prepare it for modeling:
+The dataset undergoes several preprocessing and feature engineering steps to prepare it for modeling:
 
 1. **Date Parsing**: Convert date columns to datetime objects.
 2. **Lag Features**: Create lagged features for each time series.
@@ -58,7 +58,7 @@ The modeling pipeline consists of:
 2. **Extra Trees Classifier**:
    - An ensemble technique similar to Random Forest but with increased randomness.
    - Splits nodes by choosing the best split among a random subset of features.
-   - The added randomness typically reduces variancewhen compared to Random Forest.
+   - The added randomness typically reduces variance when compared to Random Forest.
 
 3. **Logistic Regression Ensemble**:
    - Combines predictions from both Random Forest and Extra Trees classifiers.
