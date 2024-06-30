@@ -11,7 +11,6 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning,
                         message="X has feature names, but SelectFromModel was fitted without feature names")
 warnings.filterwarnings('ignore', category=pd.errors.PerformanceWarning)
-
 def load_data(csv_path):
     """
     Load data from csv file
@@ -169,8 +168,10 @@ def plot_confidence_vs_change(df):
     :return: None
     """
     df = df[df["Confidence"] > 0.5]
-    df["True Positive"] = (df["Actual"] == 1) & (df["Ensemble Predicted"] == 1)
-    df["False Positive"] = (df["Actual"] == 0) & (df["Ensemble Predicted"] == 1)
+    df = df.copy()
+    df.loc[:, "True Positive"] = (df["Actual"] == 1) & (df["Ensemble Predicted"] == 1)
+    df.loc[:, "False Positive"] = (df["Actual"] == 0) & (df["Ensemble Predicted"] == 1)
+
     plt.scatter(
         df["Confidence"][df["True Positive"]],
         df["Percentage Change"][df["True Positive"]],
@@ -219,7 +220,6 @@ def test_ensemble_model(
             "Date": df["Date"].iloc[-len(y_test) :],
         }
     )
-    print(df_actual_vs_pred.to_string())
     plot_confidence_vs_change(df_actual_vs_pred)
     time_series_analysis(df_actual_vs_pred)
 
