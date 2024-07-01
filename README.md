@@ -14,7 +14,7 @@ This repository presents an advanced ensemble modeling approach to predict perce
 - [Results](#results)
 
 ## Overview
-In this project, a heterogeneous ensemble model is employed to predict percentage changes in non-investment grade short-term debt. By combining Random Forest and Extra Trees classifiers, the ensemble leverages the strengths of both algorithms—Random Forest's robustness and Extra Trees' variance reduction. The predictions from these models are then integrated using logistic regression, which learns to weigh their contributions effectively. This approach improves predictive accuracy, reduces overfitting, and provides more reliable predictions, particularly when the model's confidence is high. 
+In this project, a heterogeneous ensemble model is employed to predict percentage changes in non-investment grade short-term debt. By combining Random Forest and Extra Trees classifiers, the ensemble leverages the strengths of both algorithms—Random Forest's ability to reduce overfitting and Extra Trees' variance reduction. The predictions from these models are then integrated using logistic regression, which learns to weigh their contributions effectively. This approach improves predictive accuracy, reduces overfitting, and provides more reliable predictions, particularly when the model's confidence is high. 
 
 ## Installation
 
