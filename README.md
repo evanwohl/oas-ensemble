@@ -21,8 +21,8 @@ In this project, a heterogeneous ensemble model is employed to predict percentag
 To set up this project, clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/evanwohl/creditAnalysis.git
-cd creditAnalysis
+git clone https://github.com/evanwohl/oas-ensemble.git
+cd oas-ensemble
 pip install -r requirements.txt
 ```
 ## Usage
